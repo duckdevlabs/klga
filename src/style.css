@@ -112,6 +112,11 @@ body {
   background: var(--color-surface-light);
 }
 
+.nav-links a.active {
+  color: var(--color-text);
+  background: var(--color-surface-light);
+}
+
 .nav-dropdown {
   position: relative;
 }
@@ -145,6 +150,7 @@ body {
   max-width: var(--max-width);
   margin: 0 auto;
   padding: 48px 24px;
+  min-height: calc(100vh - var(--nav-height) - 200px);
 }
 
 /* Page layout */
@@ -439,6 +445,16 @@ body {
 .mermaid {
   margin: 24px 0;
   text-align: center;
+}
+
+/* SPA transition */
+.content {
+  animation: fadeIn 0.2s ease-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
 }
 
 /* Responsive */

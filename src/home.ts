@@ -1,31 +1,27 @@
----
-layout: default
-title: Home
----
-
+export const homeHTML = `
 <section class="hero">
   <h1>KLGA</h1>
   <p class="tagline">Your practice companion. A full-featured metronome, habit tracker, and timing trainer built for musicians who take practice seriously.</p>
-  <a href="{{ '/metronome' | relative_url }}" class="cta-btn">Explore the Metronome</a>
+  <a href="#/metronome" class="cta-btn">Explore the Metronome</a>
 </section>
 
 <section class="features">
-  <a href="{{ '/metronome' | relative_url }}" class="feature-card">
+  <a href="#/metronome" class="feature-card">
     <h3>Metronome</h3>
     <p>BPM dial (20–300), 14 click sounds, any time signature, accent patterns, and a visual beat indicator that pulses with your rhythm.</p>
   </a>
 
-  <a href="{{ '/tap-tempo' | relative_url }}" class="feature-card">
+  <a href="#/tap-tempo" class="feature-card">
     <h3>Tap Tempo</h3>
     <p>Tap the screen to detect a tempo, then send it straight to the metronome and start playing instantly.</p>
   </a>
 
-  <a href="{{ '/practice-calendar' | relative_url }}" class="feature-card">
+  <a href="#/practice-calendar" class="feature-card">
     <h3>Practice Calendar</h3>
     <p>Track your practice days on a monthly grid. See your streak, sync across devices, and build consistency.</p>
   </a>
 
-  <a href="{{ '/reference/gradual-muting' | relative_url }}" class="feature-card">
+  <a href="#/reference/gradual-muting" class="feature-card">
     <h3>Gradual Muting</h3>
     <p>A training mode that progressively silences beats until you maintain the rhythm on your own — no click needed.</p>
   </a>
@@ -67,3 +63,4 @@ graph TD
     Login -->|"sign in"| Home
   </div>
 </section>
+`;
