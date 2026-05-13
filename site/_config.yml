@@ -1,0 +1,17 @@
+title: KLGA
+description: Kiko Loureiro Guitar Academy — Practice Companion App
+baseurl: ""
+url: ""
+markdown: kramdown
+plugins:
+  - jekyll-seo-tag
+
+collections:
+  pages:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: page

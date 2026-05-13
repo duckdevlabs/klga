@@ -1,0 +1,34 @@
+<nav class="site-nav">
+  <div class="nav-inner">
+    <a class="nav-brand" href="{{ '/' | relative_url }}">KLGA</a>
+    <button class="nav-toggle" aria-label="Toggle navigation">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links">
+      <li><a href="{{ '/' | relative_url }}">Home</a></li>
+      <li><a href="{{ '/metronome' | relative_url }}">Metronome</a></li>
+      <li><a href="{{ '/tap-tempo' | relative_url }}">Tap Tempo</a></li>
+      <li><a href="{{ '/practice-calendar' | relative_url }}">Calendar</a></li>
+      <li><a href="{{ '/settings' | relative_url }}">Settings</a></li>
+      <li class="nav-dropdown">
+        <a href="#" class="nav-dropdown-toggle">Reference</a>
+        <ul class="nav-dropdown-menu">
+          <li><a href="{{ '/reference/tempo-markings' | relative_url }}">Tempo Markings</a></li>
+          <li><a href="{{ '/reference/time-signatures' | relative_url }}">Time Signatures</a></li>
+          <li><a href="{{ '/reference/gradual-muting' | relative_url }}">Gradual Muting</a></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</nav>
+<script>
+  document.querySelector('.nav-toggle').addEventListener('click', function() {
+    document.querySelector('.nav-links').classList.toggle('open');
+  });
+  document.querySelectorAll('.nav-dropdown-toggle').forEach(function(el) {
+    el.addEventListener('click', function(e) {
+      e.preventDefault();
+      el.parentElement.classList.toggle('open');
+    });
+  });
+</script>
