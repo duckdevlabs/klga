@@ -145,6 +145,68 @@ body {
   border-radius: 0;
 }
 
+/* Reference page */
+.ref-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 24px;
+  margin-top: 8px;
+}
+
+.ref-card {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: 32px 28px;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  transition: border-color 0.2s, transform 0.2s, box-shadow 0.2s;
+}
+
+.ref-card:hover {
+  border-color: var(--color-accent-start);
+  transform: translateY(-4px);
+  box-shadow: 0 12px 32px rgba(255, 77, 77, 0.12);
+}
+
+.ref-card-icon {
+  font-size: 2.5rem;
+  margin-bottom: 16px;
+  background: linear-gradient(135deg, var(--color-accent-start), var(--color-accent-end));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  line-height: 1;
+}
+
+.ref-card h3 {
+  color: var(--color-text);
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.ref-card p {
+  color: var(--color-text-secondary);
+  font-size: 0.9rem;
+  line-height: 1.6;
+  flex: 1;
+}
+
+.ref-card-cta {
+  display: inline-block;
+  margin-top: 16px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--color-accent-start);
+  transition: color 0.2s;
+}
+
+.ref-card:hover .ref-card-cta {
+  color: var(--color-accent-end);
+}
+
 /* Content */
 .content {
   max-width: var(--max-width);
@@ -495,11 +557,16 @@ body {
     padding-left: 16px;
   }
 
-  .features {
+  .features,
+  .ref-grid {
     grid-template-columns: 1fr;
   }
 
   .steps {
     grid-template-columns: 1fr;
+  }
+
+  .nav-dropdown.open .nav-dropdown-menu {
+    display: block;
   }
 }

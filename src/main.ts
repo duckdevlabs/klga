@@ -49,6 +49,37 @@ function renderHome() {
   app.innerHTML = homeHTML;
 }
 
+function renderReference() {
+  document.title = "Reference — KLGA";
+  app.innerHTML = `
+    <article class="page">
+      <header class="page-header">
+        <h1>Reference</h1>
+        <p class="page-description">Music theory essentials and practice techniques to support your training.</p>
+      </header>
+      <div class="ref-grid">
+        <a href="#/reference/tempo-markings" class="ref-card">
+          <div class="ref-card-icon">&#9833;</div>
+          <h3>Tempo Markings</h3>
+          <p>Learn the standard Italian tempo terms — from Largo to Prestissimo — and their BPM ranges.</p>
+          <span class="ref-card-cta">Explore &rarr;</span>
+        </a>
+        <a href="#/reference/time-signatures" class="ref-card">
+          <div class="ref-card-icon">&#119082;</div>
+          <h3>Time Signatures</h3>
+          <p>Understand simple, compound, and odd meters. See how they shape rhythm and feel.</p>
+          <span class="ref-card-cta">Explore &rarr;</span>
+        </a>
+        <a href="#/reference/gradual-muting" class="ref-card">
+          <div class="ref-card-icon">&#9837;</div>
+          <h3>Gradual Muting</h3>
+          <p>A training mode that progressively silences beats until you hold the rhythm on your own.</p>
+          <span class="ref-card-cta">Explore &rarr;</span>
+        </a>
+      </div>
+    </article>`;
+}
+
 async function renderPage(route: string) {
   const page = getPage(route);
   if (!page) {
@@ -79,9 +110,8 @@ document.querySelector(".nav-toggle")?.addEventListener("click", () => {
   document.querySelector(".nav-links")?.classList.toggle("open");
 });
 document.querySelectorAll(".nav-dropdown-toggle").forEach((el) => {
-  el.addEventListener("click", (e) => {
-    e.preventDefault();
-    (el as HTMLElement).parentElement?.classList.toggle("open");
+  el.addEventListener("click", () => {
+    document.querySelector(".nav-dropdown")?.classList.remove("open");
   });
 });
 document.querySelectorAll(".nav-links a:not(.nav-dropdown-toggle)").forEach((a) => {
@@ -97,6 +127,8 @@ createRouter(async (route) => {
 
   if (route === "/") {
     renderHome();
+  } else if (route === "/reference") {
+    renderReference();
   } else {
     await renderPage(route);
   }
