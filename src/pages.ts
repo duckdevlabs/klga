@@ -1,7 +1,10 @@
 import metronomeRaw from "../metronome.md?raw";
 import tapTempoRaw from "../tap-tempo.md?raw";
+import trainingRaw from "../training.md?raw";
 import practiceCalendarRaw from "../practice-calendar.md?raw";
 import settingsRaw from "../settings.md?raw";
+import profileRaw from "../profile.md?raw";
+import resetPasswordRaw from "../reset-password.md?raw";
 import tempoMarkingsRaw from "../reference/tempo-markings.md?raw";
 import timeSignaturesRaw from "../reference/time-signatures.md?raw";
 import gradualMutingRaw from "../reference/gradual-muting.md?raw";
@@ -58,8 +61,11 @@ function processPage(raw: string): Page {
 const pages: Record<string, Page> = {
   "/metronome": processPage(metronomeRaw),
   "/tap-tempo": processPage(tapTempoRaw),
+  "/training": processPage(trainingRaw),
   "/practice-calendar": processPage(practiceCalendarRaw),
   "/settings": processPage(settingsRaw),
+  "/profile": processPage(profileRaw),
+  "/reset-password": processPage(resetPasswordRaw),
   "/reference/tempo-markings": processPage(tempoMarkingsRaw),
   "/reference/time-signatures": processPage(timeSignaturesRaw),
   "/reference/gradual-muting": processPage(gradualMutingRaw),
