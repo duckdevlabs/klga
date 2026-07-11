@@ -1,7 +1,7 @@
 export const homeHTML = `
 <section class="hero">
   <h1>KLGA</h1>
-  <p class="tagline">Your practice companion. A full-featured metronome, habit tracker, and timing trainer built for musicians who take practice seriously.</p>
+  <p class="tagline">Your practice companion. A full-featured metronome, guided training planner, habit tracker, and timing trainer built for musicians who take practice seriously.</p>
   <a href="#/metronome" class="cta-btn">Explore the Metronome</a>
 </section>
 
@@ -14,6 +14,11 @@ export const homeHTML = `
   <a href="#/tap-tempo" class="feature-card">
     <h3>Tap Tempo</h3>
     <p>Tap the screen to detect a tempo, then send it straight to the metronome and start playing instantly.</p>
+  </a>
+
+  <a href="#/training" class="feature-card">
+    <h3>Training</h3>
+    <p>Browse curated exercises, create custom goals, generate timed practice sessions, and track BPM progress.</p>
   </a>
 
   <a href="#/practice-calendar" class="feature-card">
@@ -36,11 +41,11 @@ export const homeHTML = `
     </div>
     <div class="step">
       <div class="step-number">2</div>
-      <p>Open the Metronome tab and drag the BPM dial to set your tempo.</p>
+      <p>Open the Metronome tab to start immediately, or Training to build a guided session.</p>
     </div>
     <div class="step">
       <div class="step-number">3</div>
-      <p>Press Play — the click starts and your practice time is tracked automatically.</p>
+      <p>Press Play — practice time and progress are tracked automatically.</p>
     </div>
   </div>
 </section>
@@ -54,10 +59,14 @@ graph TD
         Home["Home"]
         Metro["Metronome"]
         Tap["Tap Tempo"]
+        Train["Training"]
         Cal["Practice Calendar"]
     end
     Metro -->|"Beats button"| Beats["Sound & Training"]
     Metro -->|"Music icon"| Notes["Notes & Subdivisions"]
+    Train -->|"exercise card"| Details["Exercise Details"]
+    Train -->|"planner action"| Planner["Session Planner"]
+    Planner --> Preview["Session Preview"]
     Home -->|"avatar"| Profile["Profile"]
     Home -->|"gear icon"| Settings["Settings"]
     Login -->|"sign in"| Home

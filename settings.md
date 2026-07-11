@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Settings & Account
-description: Login, profile, practice reminders, and app settings.
+description: Login, password reset, profile, practice reminders, app preferences, and sign out.
 permalink: /settings
 ---
 
@@ -9,57 +9,71 @@ This page covers everything related to your account, profile, practice reminders
 
 ## Creating an Account
 
-When you first open the app you'll see the **Login** screen.
+When you first open the app you will see the **Login** screen.
 
-1. Enter your **email** and a **password**.
-2. Tap **Sign Up** (or toggle to sign-up mode if you see "Sign In").
+1. Enter your **email** and **password**.
+2. Tap **Sign Up** if you are creating a new account.
 3. Check your email for a confirmation link, then sign in.
 
-If you already have an account, just enter your credentials and tap **Sign In**.
+If you already have an account, enter your credentials and tap **Sign In**.
+
+## Password Reset
+
+If you forget your password, tap **Forgot Password** on the login screen.
+
+1. Enter the email address for your account.
+2. Tap **Send Reset Link**.
+3. Open the recovery email on your device.
+4. Follow the link back into KLGA.
+5. Enter and confirm your new password.
+
+See [Password Reset](#/reset-password) for the full flow.
 
 ## Profile
 
-Tap your **avatar** on the Home screen header to open your profile. Here you can see:
+Tap your **avatar** on the Home screen header to open your profile. The Profile screen shows:
 
-- Your **display name**
-- Your **email address**
-- Your **avatar** (image or initials)
+- Your avatar, display name, and membership rank.
+- Practice stats such as streak, total hours, and top BPM.
+- Weekly practice goal progress.
+- Active BPM or exercise goals.
+- Achievement progress.
 
-Profile information is pulled from your account. To edit it, use the **Edit profile** option from the Settings screen.
+From the Profile screen you can open the profile editor to update your display name, phone number, and avatar image.
 
-## Settings
+See [Profile](#/profile) for details.
 
-Tap the **gear icon** on the Home screen header to open Settings. The Settings screen includes:
+## Settings Screen
+
+Tap the **gear icon** on the Home screen header to open Settings. The Settings screen includes Account, Preferences, About, and Sign Out sections.
 
 ### Account
 
-A read-only card showing your name and email. Tap **Edit profile** to go to your Profile page.
+The Account card shows your display name and email address. The **Edit Profile** row takes you to your profile area.
 
 ### Practice Reminders
 
-Stay consistent by scheduling daily reminders:
+Stay consistent by scheduling reminders:
 
 1. Toggle **Practice Reminders** on.
-2. **Pick a time** — tap the time field to open a time picker. Default is 9:00 AM.
-3. **Choose days** — tap the Mon–Sun chips to select which days you want to be reminded. Weekdays are on by default; weekends are off.
-4. A local notification will fire at the chosen time on each selected day with a message like "Time to practice!"
+2. Tap **Reminder Time** to choose a time. The default is 9:00 AM.
+3. Choose practice days with the Mon–Sun chips. Weekdays are enabled by default.
+4. KLGA schedules local notifications for the selected time and days.
 
-To stop reminders, toggle them off. All scheduled notifications are cleared.
-
-**Note:** Reminders are automatically cancelled when you sign out and restored when you sign back in.
+To stop reminders, toggle them off. Scheduled notifications are cleared when reminders are disabled or when you sign out.
 
 ### Dark Mode
 
-The app uses a dark theme by default. A toggle is present in Settings for future use.
+KLGA currently uses a dark theme. The Settings screen includes a Dark Mode switch for the app preference surface.
 
 ### About
 
-Shows the app version (1.0.0). Links to Terms of Service and Privacy Policy will be available in a future update.
+The About section shows the app version and placeholders for Terms of Service and Privacy Policy.
 
 ## Signing Out
 
-Scroll to the bottom of the Settings screen and tap **Sign Out**. This will:
+Scroll to the bottom of Settings and tap **Sign Out**. This will:
 
-- Cancel all scheduled practice reminders.
+- Cancel scheduled practice reminders.
 - Return you to the Login screen.
-- Your practice data remains safe on the server and will be available when you sign back in.
+- Keep your practice data safe on the server so it is available when you sign back in.
