@@ -8,6 +8,7 @@ import resetPasswordRaw from "../reset-password.md?raw";
 import tempoMarkingsRaw from "../reference/tempo-markings.md?raw";
 import timeSignaturesRaw from "../reference/time-signatures.md?raw";
 import gradualMutingRaw from "../reference/gradual-muting.md?raw";
+import dashboardRaw from "../dashboard.md?raw";
 
 export interface Page {
   title: string;
@@ -63,6 +64,7 @@ const pages: Record<string, Page> = {
   "/tap-tempo": processPage(tapTempoRaw),
   "/training": processPage(trainingRaw),
   "/practice-calendar": processPage(practiceCalendarRaw),
+  "/dashboard": processPage(dashboardRaw),
   "/settings": processPage(settingsRaw),
   "/profile": processPage(profileRaw),
   "/reset-password": processPage(resetPasswordRaw),

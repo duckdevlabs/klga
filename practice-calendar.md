@@ -9,7 +9,7 @@ The Practice Calendar helps you build a consistent practice habit by showing whi
 
 ## Viewing the Calendar
 
-Open the **Practice Calendar** tab from the bottom navigation bar. You'll see:
+Open the **Dashboard** tab from the bottom navigation bar and select **Consistency**. You'll see:
 
 - A **monthly grid** with one cell per day.
 - Days you've practised are marked with a check icon.
@@ -46,3 +46,7 @@ Use the streak as motivation to keep your chain going!
 ## Home Screen Preview
 
 On the **Home** tab, a **Practice Calendar card** shows a quick week view (Mon–Sun) with dots indicating which days you practised. Tap the card to jump to the full calendar.
+
+## Related Docs
+
+- [Dashboard](#/dashboard) — practice health, streaks, calendar activity, and skill progress.
