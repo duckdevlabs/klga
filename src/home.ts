@@ -26,6 +26,11 @@ export const homeHTML = `
     <p>Track your practice days on a monthly grid. See your streak, sync across devices, and build consistency.</p>
   </a>
 
+  <a href="#/dashboard" class="feature-card">
+    <h3>Dashboard</h3>
+    <p>Review practice consistency, streaks, calendar activity, BPM growth, and exercise progress.</p>
+  </a>
+
   <a href="#/reference/gradual-muting" class="feature-card">
     <h3>Gradual Muting</h3>
     <p>A training mode that progressively silences beats until you maintain the rhythm on your own — no click needed.</p>
@@ -60,13 +65,15 @@ graph TD
         Metro["Metronome"]
         Tap["Tap Tempo"]
         Train["Training"]
-        Cal["Practice Calendar"]
+        Dash["Dashboard"]
     end
     Metro -->|"Beats button"| Beats["Sound & Training"]
     Metro -->|"Music icon"| Notes["Notes & Subdivisions"]
     Train -->|"exercise card"| Details["Exercise Details"]
     Train -->|"planner action"| Planner["Session Planner"]
     Planner --> Preview["Session Preview"]
+    Dash -->|"Consistency"| Cal["Practice Calendar"]
+    Dash -->|"Skill & Performance"| Progress["BPM & Exercise Progress"]
     Home -->|"avatar"| Profile["Profile"]
     Home -->|"gear icon"| Settings["Settings"]
     Login -->|"sign in"| Home

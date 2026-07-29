@@ -44,6 +44,7 @@ The Profile area includes a sign-out action. Signing out returns you to the logi
 
 ## Related Docs
 
+- [Dashboard](#/dashboard) — consistency, streak, BPM, and exercise progress.
 - [Settings & Account](#/settings) — account settings, reminders, and sign out.
 - [Practice Calendar](#/practice-calendar) — practice history and streak tracking.
 - [Training](#/training) — exercises and BPM goal progress.
