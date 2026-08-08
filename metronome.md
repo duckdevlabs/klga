@@ -65,19 +65,6 @@ Below the time signature on the Notes & Subdivisions screen, you will see **acce
 
 Selecting a pattern changes how the metronome accents beats and how the beat indicator groups the dots visually. The first beat of each group receives an accent sound.
 
-## Subdivisions
-
-The Notes & Subdivisions screen also shows **subdivision chips**:
-
-| Subdivision | Clicks per beat |
-|-------------|----------------|
-| Quarter | 1 |
-| Eighth | 2 |
-| Triplet | 3 |
-| Sixteenth | 4 |
-
-Select the subdivision that matches the rhythmic density you want to practise.
-
 ## Sound Selection
 
 Open the **Sound & Training** sheet (Beats button) to choose sounds. There are two expandable pickers:
@@ -86,6 +73,18 @@ Open the **Sound & Training** sheet (Beats button) to choose sounds. There are t
 - **Main Sound** — the click played on all other beats.
 
 Tap a sound name to preview it and select it.
+
+### Volume
+
+The **VOLUME** control appears at the top of **Sound & Training**. Its percentage and slider cover **0% to 100%** in 5% steps.
+
+- New installations start at **50%**.
+- Moving the slider changes the click volume immediately.
+- The selected percentage is saved on the device and restored when you reopen the app.
+- At **0%**, the audible click is silent while the visual beat indicator continues to run.
+- The in-app percentage is also affected by your device's media volume.
+
+The selected volume is the starting level used by **Gradual Mode** before that mode begins reducing and muting clicks.
 
 ### Available Sounds
 

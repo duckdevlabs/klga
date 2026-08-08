@@ -24,6 +24,19 @@ The Profile screen shows:
 - **Weekly goals** — progress against the weekly practice target and active BPM goals.
 - **Achievements** — unlocked achievements in full color and locked achievements as muted icons.
 
+## Achievements and Progress
+
+The Profile preview shows up to six achievements. Tap **View all** to open the complete, scrollable achievement grid.
+
+- Unlocked achievements appear first, with the most recently awarded first.
+- Locked achievements follow, ordered by highest completion percentage.
+- When progress and a target are available, a locked achievement shows a progress bar and a compact value such as hours, days, events, or BPM.
+- Unlocked achievements use full-color badges. Locked achievements are dimmed.
+
+Tap any badge to see its title, description, inspiration credit when available, and **Locked** or **Unlocked** status. An unlocked badge also shows its unlock date when available and the **Compartilhar Conquista** action.
+
+KLGA evaluates supported achievements from practice activity and completed Training sessions. When you sign in, it also attempts a background progress reconciliation if one has not been attempted for that account in the previous six hours. A failed background attempt does not block sign-in; progress can be evaluated again after the interval or by later supported activity.
+
 ## Sharing Progress
 
 After the profile statistics finish loading, tapping **Days streak**, **Hours**, or **Top BPM** opens the same streak share card. The card contains your current streak and total practice hours; it does not include the selected statistic separately.
