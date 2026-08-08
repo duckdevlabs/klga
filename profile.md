@@ -24,6 +24,14 @@ The Profile screen shows:
 - **Weekly goals** — progress against the weekly practice target and active BPM goals.
 - **Achievements** — unlocked achievements in full color and locked achievements as muted icons.
 
+## Sharing Progress
+
+After the profile statistics finish loading, tapping **Days streak**, **Hours**, or **Top BPM** opens the same streak share card. The card contains your current streak and total practice hours; it does not include the selected statistic separately.
+
+Tap an unlocked achievement to open its details, then tap **Compartilhar Conquista** to create a card with the achievement title, description, badge, and unlock date when available. Locked achievements do not show this action.
+
+The separate **Share profile** button still shows a coming-soon message and does not create a card. For card formats, themes, and errors, see [Sharing Progress](#/sharing-progress).
+
 ## Editing Your Profile
 
 Open the edit action from the Profile screen to update:
@@ -48,3 +56,4 @@ The Profile area includes a sign-out action. Signing out returns you to the logi
 - [Settings & Account](#/settings) — account settings, reminders, and sign out.
 - [Practice Calendar](#/practice-calendar) — practice history and streak tracking.
 - [Training](#/training) — exercises and BPM goal progress.
+- [Sharing Progress](#/sharing-progress) — share streaks, unlocked achievements, and completed sessions.

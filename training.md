@@ -28,12 +28,26 @@ Curated exercises that have not been started yet are shown as practice-ready tem
 
 Tap an exercise to open its detail page. The detail view shows:
 
+- A **DEMONSTRATION** video when the exercise has a media URL.
 - Category, subcategory, difficulty, and time signature badges.
 - Practice instructions or a fallback message when no description exists.
 - Current BPM, target BPM, and a progress indicator.
 - A **Practice Now** action.
 
 Practice Now starts a direct 10-minute training block for that exercise.
+
+### Exercise Demonstration Videos
+
+KLGA supports HTTPS YouTube, Vimeo, and direct MP4 demonstration links. Videos use a 16:9 player at the top of the exercise details:
+
+- YouTube and Vimeo demonstrations use their embedded player controls.
+- For MP4 demonstrations, tap the video to play or pause and drag the progress bar to seek.
+- While an MP4 is loading, the player shows a progress indicator.
+- An unsupported or insecure link shows **No supported video is available for this exercise.**
+- A playback or network failure shows **The video could not be loaded.**
+- When an exercise has no media URL, the **DEMONSTRATION** section is not shown.
+
+Streaming requires a network connection; videos are not available for offline playback.
 
 ## Creating Custom Exercises
 
@@ -107,7 +121,10 @@ At the end of a session:
 - Practice sessions sync to the Practice Calendar.
 - If sync fails, KLGA keeps the local practice data queued for a later sync.
 
+The session summary also includes **Compartilhar Conquista**. It opens a share-card preview containing the session date, duration, number of completed exercises, and the highest recorded BPM when one is available. See [Sharing Progress](#/sharing-progress) for format, theme, and sharing behavior.
+
 ## Related Docs
 
 - [Practice Calendar](#/practice-calendar) — where synced practice sessions appear.
 - [Metronome](#/metronome) — timing engine used during practice.
+- [Sharing Progress](#/sharing-progress) — create an image from a completed session, streak, or unlocked achievement.
