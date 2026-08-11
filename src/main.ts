@@ -111,6 +111,7 @@ document.querySelector(".nav-toggle")?.addEventListener("click", () => {
 });
 document.querySelectorAll(".nav-dropdown-toggle").forEach((el) => {
   el.addEventListener("click", () => {
+    document.querySelector(".nav-links")?.classList.remove("open");
     document.querySelector(".nav-dropdown")?.classList.remove("open");
   });
 });
