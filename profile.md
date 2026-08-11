@@ -37,6 +37,27 @@ Tap any badge to see its title, description, inspiration credit when available, 
 
 KLGA evaluates supported achievements from practice activity and completed Training sessions. When you sign in, it also attempts a background progress reconciliation if one has not been attempted for that account in the previous six hours. A failed background attempt does not block sign-in; progress can be evaluated again after the interval or by later supported activity.
 
+### Achievement Celebrations
+
+When KLGA finds a newly earned achievement that you have not acknowledged, it shows a floating celebration banner at the top of a signed-in screen. The banner includes the achievement title and description. If several achievements are waiting, it also shows your position in the group, such as **1 of 3**.
+
+KLGA waits to show or continue the banner while either of these activities is active:
+
+- a Training session;
+- metronome playback.
+
+The banner also waits while the app is in the background, on an authentication screen, or showing a popup. It appears again after you return to a normal signed-in screen and the protected activity has ended. It does not stop playback, change your Training session, play a sound, produce haptic feedback, or move keyboard or screen-reader focus.
+
+To acknowledge a group of achievements:
+
+1. Read the current achievement.
+2. Tap the banner's close button to advance to the next achievement, if present.
+3. Tap close on the final achievement to dismiss and confirm the whole group.
+
+If the app closes before you acknowledge the whole group, KLGA can offer the unconfirmed celebrations again after their temporary reservation expires. With reduced motion enabled on your device, the banner appears without its slide-and-fade animation.
+
+The current banner does not include an action for opening achievement details. You can open details from the **Achievements** area in your Profile instead.
+
 ## Sharing Progress
 
 After the profile statistics finish loading, tapping **Days streak**, **Hours**, or **Top BPM** opens the same streak share card. The card contains your current streak and total practice hours; it does not include the selected statistic separately.
