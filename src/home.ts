@@ -8,7 +8,7 @@ export const homeHTML = `
 <section class="features">
   <a href="#/metronome" class="feature-card">
     <h3>Metronome</h3>
-    <p>BPM dial (20–300), 14 click sounds, any time signature, accent patterns, and a visual beat indicator that pulses with your rhythm.</p>
+    <p>BPM dial (20–300), 14 click sounds, flexible time signatures, accent patterns, and floating playback controls across the app's main tabs.</p>
   </a>
 
   <a href="#/tap-tempo" class="feature-card">
