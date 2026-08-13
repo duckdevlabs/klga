@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Metronome
-description: A full-featured metronome with configurable sounds, time signatures, accent patterns, precise BPM controls, and gradual muting practice mode.
+description: A full-featured metronome with precise BPM controls, configurable sounds and meters, gradual muting, and floating playback controls.
 permalink: /metronome
 ---
 
@@ -140,6 +140,25 @@ The row of dots below the BPM dial provides a visual pulse:
 - While playing, the **current beat** lights up in red with a glow effect.
 - When an accent pattern with multiple groups is active, such as 3 + 2 for 5/8, dots are visually separated into clusters with the first dot of each group slightly emphasized.
 - When stopped, all dots are neutral.
+
+## Floating Controls on Other Tabs
+
+After you start the metronome and move to another main tab, a floating control appears above the bottom navigation bar. It keeps the current tempo and playback controls available without covering the Metronome screen itself.
+
+The floating control shows the metronome icon, the current **BPM**, and a play or stop button. The metronome icon uses the app's accent colour while playback is active and a muted colour while stopped.
+
+### Control playback or return to the Metronome
+
+- Tap the circular **play/stop** button to control playback without leaving your current tab.
+- Tap the main part of the floating control to return to the **Metronome** tab.
+- When you return to the Metronome, the floating control fades and collapses out of view.
+- If playback is active when you leave the Metronome again, the floating control reappears.
+
+### Dismiss the stopped control
+
+When you stop playback from another tab, an **X** button appears beside the play button. Tap **X** to hide the floating control. Starting the metronome again restores it automatically outside the Metronome tab.
+
+The activation and dismissed state last only for the current app session. After restarting KLGA, the floating control stays hidden until you start the metronome again. The **X** button is available only while playback is stopped.
 
 ## iOS Live Activity
 
