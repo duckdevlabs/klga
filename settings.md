@@ -9,13 +9,15 @@ This page covers everything related to your account, profile, practice reminders
 
 ## Creating an Account
 
-When you first open the app you will see the **Login** screen.
+On a new installation, tap **Continue** on the Welcome screen to reach Login.
 
 1. Enter your **email** and **password**.
 2. Tap **Sign Up** if you are creating a new account.
 3. Check your email for a confirmation link, then sign in.
 
 If you already have an account, enter your credentials and tap **Sign In**.
+
+After signing in with an account that has not completed setup, KLGA asks for your practice days, daily goal, and notification preferences. See [Getting Started & Practice Setup](#/onboarding) for the full flow.
 
 ## Password Reset
 
@@ -55,12 +57,18 @@ The Account card shows your display name and email address. The **Edit Profile**
 
 Stay consistent by scheduling reminders:
 
-1. Toggle **Practice Reminders** on.
-2. Tap **Reminder Time** to choose a time. The default is 9:00 AM.
-3. Choose practice days with the Mon–Sun chips. Weekdays are enabled by default.
+1. Grant notification permission when prompted. If it was previously blocked, use **Open notification settings**.
+2. Choose practice days with the day chips.
+3. Toggle **Practice Reminders** on and choose a time.
 4. KLGA schedules local notifications for the selected time and days.
 
 To stop reminders, toggle them off. Scheduled notifications are cleared when reminders are disabled or when you sign out.
+
+### Streak Protection
+
+Turn on **Streak Protection** to choose an evening warning time. KLGA can alert you when you have an active streak but have not recorded practice for the day. If no practice days are selected, the warning applies daily.
+
+Practice reminder and streak-protection times follow the device's 12-hour or 24-hour setting and use 5-minute increments.
 
 ### Dark Mode
 
