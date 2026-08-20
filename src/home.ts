@@ -42,24 +42,27 @@ export const homeHTML = `
   <div class="steps">
     <div class="step">
       <div class="step-number">1</div>
-      <p>Create a free account with your email and sign in.</p>
+      <p>Continue through Welcome, create an account, and sign in.</p>
     </div>
     <div class="step">
       <div class="step-number">2</div>
-      <p>Open the Metronome tab to start immediately, or Training to build a guided session.</p>
+      <p>Choose your practice days, daily goal, and optional reminders.</p>
     </div>
     <div class="step">
       <div class="step-number">3</div>
-      <p>Press Play — practice time and progress are tracked automatically.</p>
+      <p>Finish setup, then start with Metronome or build a session in Training.</p>
     </div>
   </div>
+  <p><a href="#/onboarding">Read the setup guide</a></p>
 </section>
 
 <section class="getting-started">
   <h2>App Navigation</h2>
   <div class="mermaid">
 graph TD
-    Login["Login"]
+    Welcome["Welcome"] -->|"Continue"| Login["Login"]
+    Login -->|"first account setup"| Setup["Set up your practice"]
+    Setup -->|"Continue"| Home
     subgraph shell ["Bottom Navigation Bar"]
         Home["Home"]
         Metro["Metronome"]
