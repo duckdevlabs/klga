@@ -13,7 +13,6 @@ Open the **Training** tab from the bottom navigation bar. The library screen sho
 
 - **Header actions** to open the session planner, create a custom exercise, or use filters.
 - **Search** for exercise titles and descriptions.
-- **Category tabs** for All, Warmup, Picking, Fretting, Theory, Etudes, and other supported categories.
 - **Difficulty chips** for All, Beginner, Intermediate, and Advanced.
 - **Exercise cards** with category, subcategory, difficulty, BPM progress, and target BPM.
 
@@ -57,7 +56,7 @@ Tap the add action on the Training header to open the custom exercise sheet.
 |---|---|
 | Name | Required. |
 | Description / instructions | Optional. |
-| Category | Warmup, Technique MD, Technique ME, Theory, or Repertoire. |
+| Category | Shapes, Technique, Licks, or Warmup. |
 | Subcategory | Optional; saved as "General" when left blank. |
 | Difficulty | Beginner, Intermediate, or Advanced. |
 | Time signature | 4/4, 3/4, 6/8, or 2/4. |
@@ -65,6 +64,10 @@ Tap the add action on the Training header to open the custom exercise sheet.
 | Target BPM | Must be greater than or equal to the initial BPM. |
 
 Custom exercises appear in the same library as curated exercises and can be used by the session planner.
+
+### Editing and Archiving
+
+Open one of your custom exercises and tap the pencil action to edit its fields. Any exercise already saved to your account also has an archive action. After confirmation, archiving removes it from the active Training library without deleting the practice history already connected to it.
 
 ## Session Planner
 

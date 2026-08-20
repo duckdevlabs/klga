@@ -143,7 +143,7 @@ The row of dots below the BPM dial provides a visual pulse:
 
 ## Floating Controls on Other Tabs
 
-After you start the metronome and move to another main tab, a floating control appears above the bottom navigation bar. It keeps the current tempo and playback controls available without covering the Metronome screen itself.
+After you start the metronome and move to another main tab, a compact floating control appears above the bottom navigation bar. It keeps the current tempo and playback controls available without covering the Metronome screen itself. Full-screen detail sheets, including Dashboard analytics, appear above the main-tab shell and therefore do not show this control.
 
 The floating control shows the metronome icon, the current **BPM**, and a play or stop button. The metronome icon uses the app's accent colour while playback is active and a muted colour while stopped.
 
@@ -153,12 +153,27 @@ The floating control shows the metronome icon, the current **BPM**, and a play o
 - Tap the main part of the floating control to return to the **Metronome** tab.
 - When you return to the Metronome, the floating control fades and collapses out of view.
 - If playback is active when you leave the Metronome again, the floating control reappears.
+- If playback is stopped before you change tabs, the inactive control does not carry over to the next tab.
 
 ### Dismiss the stopped control
 
 When you stop playback from another tab, an **X** button appears beside the play button. Tap **X** to hide the floating control. Starting the metronome again restores it automatically outside the Metronome tab.
 
 The activation and dismissed state last only for the current app session. After restarting KLGA, the floating control stays hidden until you start the metronome again. The **X** button is available only while playback is stopped.
+
+## Practice Timer
+
+Tap **Timer** on the main Metronome screen to configure a countdown. Choose a 5, 10, 15, 20, 25, or 30 minute preset, or use **Custom duration** to select any whole-minute duration from 1 to 600 minutes. Durations of an hour or more appear as hours and minutes in the picker, and the active countdown uses `hh:mm:ss`.
+
+The **Timer Settings** sheet includes three independent options:
+
+- **Loop Timer** restarts the countdown at the configured duration after it reaches zero. Each loop boundary produces a medium haptic pulse.
+- **Pause Metronome with Timer** stops the metronome when you pause or reset the timer.
+- **Stop Metronome When Timer Ends** stops the metronome when a non-looping countdown completes.
+
+Tap **Apply** to save the configuration. The Timer pill then shows the remaining time, progress, and play/pause and reset actions. Tap the time to edit the settings.
+
+Starting the timer starts the metronome if it is stopped. Starting the metronome also starts a configured timer; stopping the metronome pauses the countdown only when **Pause Metronome with Timer** is enabled. A completed non-looping timer gives a heavy haptic pulse and remains at zero until restarted or reset.
 
 ## iOS Live Activity
 

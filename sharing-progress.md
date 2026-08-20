@@ -22,7 +22,7 @@ The **Card de Conquista** sheet shows a live preview. Choose one option from eac
 | Setting | Options | Default |
 |---|---|---|
 | **FORMATO** | **9:16 Stories**, **1:1 Square** | **9:16 Stories** |
-| **TEMA VISUAL** | **Dark Obsidian**, **Cyber Gold**, **Neon Pulse** | **Dark Obsidian** |
+| **VISUAL THEME** | **KLGA Stage**, **Dark Obsidian**, **Cyber Gold**, **Neon Pulse** | **KLGA Stage** |
 
 The card content depends on where you opened it:
 
@@ -30,15 +30,13 @@ The card content depends on where you opened it:
 - Streak cards show the current streak and total practice time.
 - Achievement cards show the badge, title, description, and unlock date when available.
 
-Cards currently use **Estudante KLGA** as the student name rather than your Profile display name.
+When available, the card uses your signed-in Profile display name and avatar. Otherwise it uses the localized KLGA member fallback supplied by the screen that opened the sheet.
 
 ## Sharing the Image
 
-Tap **Compartilhar Conquista** in the sheet. The label changes to **Gerando Card...** while KLGA creates a PNG and opens the platform share dialog with the image and a KLGA message. You can then choose any compatible destination offered by your device.
+Tap **Share Achievement** in the sheet. The label changes to **Generating Card...** while KLGA creates a PNG and opens the platform share dialog with the image and a KLGA message. You can then choose any compatible destination offered by your device. These labels follow the selected app language.
 
-If image generation or the platform share action fails, the sheet stays open and KLGA shows **Erro ao compartilhar card:** followed by technical error details. You can dismiss the message and try again.
-
-The sharing-sheet labels described above are currently displayed in Portuguese, regardless of the app language.
+If image generation or the platform share action fails, the sheet stays open and KLGA shows the localized **Error sharing card:** message followed by technical error details. You can dismiss the message and try again.
 
 ## Related Docs
 

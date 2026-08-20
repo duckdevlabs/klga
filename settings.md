@@ -66,13 +66,26 @@ To stop reminders, toggle them off. Scheduled notifications are cleared when rem
 
 ### Streak Protection
 
-Turn on **Streak Protection** to choose an evening warning time. KLGA can alert you when you have an active streak but have not recorded practice for the day. If no practice days are selected, the warning applies daily.
+When **Practice Reminders** is enabled, turn on **Streak Protection Alert** to choose a separate evening warning time. The default is 8:00 PM.
+
+KLGA schedules the alert only when you have an active streak, have not practised today, and have not reached the saved daily practice goal. Completing the goal cancels routine and streak-protection alerts for that day. Reminder messages also adapt to a zero-day, 1–6 day, or 7+ day streak.
+
+Settings are saved to your account and used to rebuild local notifications. If saving fails, KLGA restores the previous setting instead of leaving the switch in an unsaved state.
 
 Practice reminder and streak-protection times follow the device's 12-hour or 24-hour setting and use 5-minute increments.
 
-### Dark Mode
+### Appearance
 
-KLGA currently uses a dark theme. The Settings screen includes a Dark Mode switch for the app preference surface.
+Use **Dark Mode** to switch between the app's dark and light color schemes. The selected mode is saved for the signed-in account on this device.
+
+Under **App Accent**, choose:
+
+- **Ember**
+- **Crimson**, the default
+- **Solar**
+- **Custom**, which opens a color picker and shows the selected hexadecimal color
+
+The accent updates primary controls, selected navigation, charts, and other design-system highlights immediately. Accent choices are also saved per account on the device. If reward information cannot refresh while offline, Settings continues to show saved accent availability and displays an offline message.
 
 ### About
 

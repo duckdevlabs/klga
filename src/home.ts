@@ -8,7 +8,7 @@ export const homeHTML = `
 <section class="features">
   <a href="#/metronome" class="feature-card">
     <h3>Metronome</h3>
-    <p>BPM dial (20–300), 14 click sounds, flexible time signatures, accent patterns, and floating playback controls across the app's main tabs.</p>
+    <p>BPM dial (20–300), practice countdowns up to 10 hours, 14 click sounds, flexible time signatures, accent patterns, and floating playback controls.</p>
   </a>
 
   <a href="#/tap-tempo" class="feature-card">
@@ -28,7 +28,7 @@ export const homeHTML = `
 
   <a href="#/dashboard" class="feature-card">
     <h3>Dashboard</h3>
-    <p>Review practice consistency, streaks, calendar activity, BPM growth, and exercise progress.</p>
+    <p>Compare weekly practice duration with your goal, then explore speed records, BPM evolution, technique distribution, and every exercise's progress.</p>
   </a>
 
   <a href="#/reference/gradual-muting" class="feature-card">
@@ -77,6 +77,10 @@ graph TD
     Planner --> Preview["Session Preview"]
     Dash -->|"Consistency"| Cal["Practice Calendar"]
     Dash -->|"Skill & Performance"| Progress["BPM & Exercise Progress"]
+    Progress --> Records["Speed Records"]
+    Progress --> Evolution["BPM Evolution"]
+    Progress --> Distribution["Technique Distribution"]
+    Progress --> Exercises["All Exercise Progress"]
     Home -->|"avatar"| Profile["Profile"]
     Home -->|"gear icon"| Settings["Settings"]
     Login -->|"sign in"| Home
