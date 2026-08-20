@@ -19,14 +19,7 @@ Open the **Dashboard** tab from the bottom navigation bar and select **Consisten
 
 Use the left and right **chevron arrows** next to the month title to move between months and review your history.
 
-## Marking a Day
-
-Tap any day in the grid to toggle it:
-
-- Tap an unmarked day to **mark it as practised**.
-- Tap a marked day to **unmark it** if you made a mistake.
-
-Changes are saved to the server so they persist across devices.
+The existing grid remains visible at reduced opacity while another month loads. Calendar dates are read-only: tapping a cell does not manually mark or unmark practice. Days are populated from recorded and synchronized practice sessions.
 
 ## Streak
 
@@ -49,4 +42,4 @@ On the **Home** tab, a **Practice Calendar card** shows a quick week view (Mon�
 
 ## Related Docs
 
-- [Dashboard](#/dashboard) — practice health, streaks, calendar activity, and skill progress.
+- [Dashboard](#/dashboard) — weekly practice duration, practice health, streaks, calendar activity, and skill progress.
