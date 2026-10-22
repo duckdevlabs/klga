@@ -11,9 +11,9 @@ Training turns the exercise library into guided practice sessions. It combines c
 
 Open the **Training** tab from the bottom navigation bar. The library screen shows:
 
-- **Header actions** to open the session planner, create a custom exercise, or use filters.
-- **Search** for exercise titles and descriptions.
-- **Difficulty chips** for All, Beginner, Intermediate, and Advanced.
+- **Header actions** to search the library, open the session planner, or create a custom exercise.
+- **Search** across titles and descriptions, with recent exercises shown before you enter a query.
+- **Category and difficulty filters** for narrowing the library.
 - **Exercise cards** with category, subcategory, difficulty, BPM progress, and target BPM.
 
 The library loads two exercise sources:
@@ -33,7 +33,7 @@ Tap an exercise to open its detail page. The detail view shows:
 - Current BPM, target BPM, and a progress indicator.
 - A **Practice Now** action.
 
-Practice Now starts a direct 10-minute training block for that exercise.
+Practice Now opens preparation for a direct training block. Before the count-in you can adjust its BPM and duration.
 
 ### Exercise Demonstration Videos
 
@@ -103,17 +103,15 @@ After generating a plan, the preview screen lists each block with:
 
 From this screen you can adjust settings, regenerate the session, or start training.
 
-## Active Session
+## Preparation, Count-in, and Resume
 
-During a session, KLGA tracks:
+Direct exercises and planned blocks use the same practice flow. Review the exercise, adjust BPM and duration, then begin the count-in. If you leave during preparation or active practice, KLGA saves a local checkpoint and shows a resumable-practice banner in the Training library.
 
-- Current block index.
-- Remaining seconds for the active block.
-- Running or paused timer state.
-- Completed block feedback.
-- BPM recorded for each completed block.
+## Active Practice
 
-When a block is completed, the app stores the practiced BPM and sensation feedback. If the block used a curated exercise that had not been started before, KLGA creates a linked user goal first.
+The active panel shows the exercise, elapsed/remaining time, BPM, and metronome state. You can pause or resume, change BPM, skip a block, or finish early. When planned time expires, overtime mode lets you continue or complete the block.
+
+After each block, record the practiced BPM and an optional **effort rating from 1 to 10**. The effort guide describes perceived exertion, not performance quality. Review the result before continuing.
 
 ## Progress and Sync
 
@@ -122,7 +120,7 @@ At the end of a session:
 - Completed blocks are saved as practice activity.
 - Existing goals can have their current BPM raised when the practiced BPM is higher.
 - Practice sessions sync to the Practice Calendar.
-- If sync fails, KLGA keeps the local practice data queued for a later sync.
+- If sync fails, KLGA keeps the local practice data queued and retries without duplicating a session already saved remotely.
 
 The session summary also includes **Compartilhar Conquista**. It opens a share-card preview containing the session date, duration, number of completed exercises, and the highest recorded BPM when one is available. See [Sharing Progress](#/sharing-progress) for format, theme, and sharing behavior.
 

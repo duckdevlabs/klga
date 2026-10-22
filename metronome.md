@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Metronome
-description: A full-featured metronome with precise BPM controls, configurable sounds and meters, gradual muting, and floating playback controls.
+description: A full-featured metronome with precise BPM controls, Speed Trainer, practice timers, configurable sounds and meters, and background playback.
 permalink: /metronome
 ---
 
@@ -11,7 +11,7 @@ The metronome is the core feature of KLGA. It provides an accurate audible click
 
 The Metronome tab shows:
 
-- **BPM dial** — a circular control in the centre. Drag it to adjust tempo.
+- **BPM dial** — drag to adjust tempo, or double-tap the left/right outer edge for a precise -1/+1 BPM change.
 - **BPM picker** — tap the BPM number in the middle of the dial to choose an exact tempo.
 - **Play / Pause button** — starts or stops the click.
 - **Beat indicator** — a row of dots below the dial showing which beat is currently playing.
@@ -19,13 +19,14 @@ The Metronome tab shows:
   - **Beats** — opens the Sound & Training setup sheet.
   - **Music icon** — opens the Notes & Subdivisions setup sheet.
 
-Navigating to either setup sheet stops playback automatically so you can make changes safely.
+Opening Beat Settings pauses playback by default. You can change that behavior under **Playback** in Beat Settings.
 
 ## BPM Control
 
 - Drag range: **20 to 300 BPM**.
 - Precise picker range: **30 to 250 BPM**.
 - Drag the dial clockwise to increase, counter-clockwise to decrease.
+- Double-tap the left outer edge to decrease by 1 BPM or the right outer edge to increase by 1 BPM. A first-use guide shows the gesture zones.
 - Tap the BPM number at the centre of the dial to open a scroll picker, then tap **Apply**.
 - If the metronome is already playing, BPM changes take effect immediately.
 - The Notes & Subdivisions screen shows the classical **tempo marking** for the current BPM.
@@ -131,6 +132,24 @@ The muting slider is only interactive when Gradual Mode is enabled. Playback sto
 - Gradual muting works with any time signature.
 
 See [Gradual Random Muting](#/reference/gradual-muting) for the full explanation.
+
+## Speed Trainer
+
+Speed Trainer raises the tempo automatically after a fixed number of measures.
+
+1. Open **Beat Settings** and enable **Speed Trainer**.
+2. Choose a starting BPM and a higher target BPM.
+3. Set an increase from **1 to 20 BPM** and an interval from **1 to 16 measures**.
+4. Start the metronome. The tempo advances by that step until the target is reached.
+
+Starting and target tempos are limited to 20–300 BPM.
+
+## Playback Preferences
+
+Beat Settings saves two playback preferences:
+
+- **Continue playing in background** keeps the click running while KLGA is in the background, where supported.
+- **Pause when opening Beat Settings** controls whether that page pauses current playback.
 
 ## Beat Indicator
 
