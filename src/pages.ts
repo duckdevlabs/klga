@@ -1,5 +1,4 @@
 import metronomeRaw from "../metronome.md?raw";
-import tapTempoRaw from "../tap-tempo.md?raw";
 import trainingRaw from "../training.md?raw";
 import practiceCalendarRaw from "../practice-calendar.md?raw";
 import settingsRaw from "../settings.md?raw";
@@ -63,7 +62,6 @@ function processPage(raw: string): Page {
 
 const pages: Record<string, Page> = {
   "/metronome": processPage(metronomeRaw),
-  "/tap-tempo": processPage(tapTempoRaw),
   "/training": processPage(trainingRaw),
   "/practice-calendar": processPage(practiceCalendarRaw),
   "/dashboard": processPage(dashboardRaw),

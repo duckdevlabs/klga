@@ -8,17 +8,12 @@ export const homeHTML = `
 <section class="features">
   <a href="#/metronome" class="feature-card">
     <h3>Metronome</h3>
-    <p>BPM dial (20–300), practice countdowns up to 10 hours, 14 click sounds, flexible time signatures, accent patterns, and floating playback controls.</p>
-  </a>
-
-  <a href="#/tap-tempo" class="feature-card">
-    <h3>Tap Tempo</h3>
-    <p>Tap the screen to detect a tempo, then send it straight to the metronome and start playing instantly.</p>
+    <p>Precise BPM gestures, Speed Trainer, practice countdowns, flexible time signatures, gradual muting, and background playback.</p>
   </a>
 
   <a href="#/training" class="feature-card">
     <h3>Training</h3>
-    <p>Browse curated exercises, create custom goals, generate timed practice sessions, and track BPM progress.</p>
+    <p>Search curated exercises, create custom goals, generate timed sessions, and resume guided practice with effort tracking.</p>
   </a>
 
   <a href="#/practice-calendar" class="feature-card">
@@ -66,7 +61,6 @@ graph TD
     subgraph shell ["Bottom Navigation Bar"]
         Home["Home"]
         Metro["Metronome"]
-        Tap["Tap Tempo"]
         Train["Training"]
         Dash["Dashboard"]
     end

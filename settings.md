@@ -87,9 +87,17 @@ Under **App Accent**, choose:
 
 The accent updates primary controls, selected navigation, charts, and other design-system highlights immediately. Accent choices are also saved per account on the device. If reward information cannot refresh while offline, Settings continues to show saved accent availability and displays an offline message.
 
+### Practice Goals
+
+The daily practice target and preferred practice days created during onboarding can be updated in Settings.
+
+### Device & App Information
+
+Open **Device & App Information** to view the installed version and build, package identifier, operating system, hardware/device details, and display information. You can copy a diagnostics summary when contacting support.
+
 ### About
 
-The About section shows the app version and placeholders for Terms of Service and Privacy Policy.
+The About section shows the installed app version dynamically and provides the current legal links.
 
 ## Signing Out
 
