@@ -51,6 +51,10 @@ The app retains up to eight recent taps and resets the measurement after three s
 
 See [Tempo Markings](#/reference/tempo-markings) for tips on using these in practice.
 
+## First-use guide
+
+The first time you open the Metronome, KLGA highlights two BPM controls: tap the BPM number in the centre of the dial to enter a tempo manually, then double-tap the left or right outer edge to decrease or increase BPM by one. Completing this short guide stores it on the device so it is not shown again.
+
 ## Time Signatures
 
 Open the **Notes & Subdivisions** sheet (music icon) and tap the **Time Signature** card to open the selector dialog.
