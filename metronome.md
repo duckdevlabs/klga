@@ -14,6 +14,7 @@ The Metronome tab shows:
 - **BPM dial** — drag to adjust tempo, or double-tap the left/right outer edge for a precise -1/+1 BPM change.
 - **BPM picker** — tap the BPM number in the middle of the dial to choose an exact tempo.
 - **Play / Pause button** — starts or stops the click.
+- **Tap buttons** — one on each side of Play / Pause. Tap either one repeatedly to set the tempo from a performed pulse.
 - **Beat indicator** — a row of dots below the dial showing which beat is currently playing.
 - **Meter picker** — a segmented bar at the top with two buttons:
   - **Beats** — opens the Sound & Training setup sheet.
@@ -30,6 +31,12 @@ Opening Beat Settings pauses playback by default. You can change that behavior u
 - Tap the BPM number at the centre of the dial to open a scroll picker, then tap **Apply**.
 - If the metronome is already playing, BPM changes take effect immediately.
 - The Notes & Subdivisions screen shows the classical **tempo marking** for the current BPM.
+
+### Tap Tempo
+
+Use either **Tap** button beside Play / Pause to tap along with the pulse you want to practise. After the second tap, KLGA calculates the average tempo from your recent taps and applies the resulting BPM immediately. This does not start, stop, or pause the metronome; when it is already playing, the click simply follows the new tempo.
+
+The app retains up to eight recent taps and resets the measurement after three seconds without a tap. The two Tap buttons work the same way. They begin fully visible, then each fades after three seconds of inactivity to keep the controls unobtrusive. Tapping either button restores only that button and restarts its visibility timer.
 
 | Marking | BPM Range | Feel |
 |---------|-----------|------|
