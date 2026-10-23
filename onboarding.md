@@ -51,6 +51,10 @@ Open **Settings** from the gear icon on Home to change practice days, reminder t
 
 Scheduled alerts use the device's local time. After travelling across time zones, launch KLGA so it can synchronize the schedule with the new local time.
 
+## Metronome guided tour
+
+The first visit to Metronome includes a brief, device-local guide. It introduces tapping the BPM number for manual entry and double-tapping the left or right outer dial edge for -1 or +1 BPM. Once completed, it does not appear again unless onboarding data is reset.
+
 ## Related Docs
 
 - [Settings & Account](#/settings) — update reminders and account preferences.

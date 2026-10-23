@@ -11,7 +11,7 @@ The Curator Dashboard is the internal, web-oriented editorial workspace for KLGA
 
 Only authenticated accounts whose `app_metadata.role` is `curator` can use the catalog operations. Supabase verifies that role on every request, so a client cannot bypass it. Learners can read only published catalog entries.
 
-The app reserves `/curator` for this dashboard. Exposing that route belongs to the curator web deployment, not the learner navigation shell.
+The app registers `/curator` outside the learner navigation shell. Logged-in accounts without the Curator role are redirected to Home; Supabase repeats the role check for every catalog operation.
 
 ## Catalog workflow
 

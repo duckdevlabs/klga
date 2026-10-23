@@ -38,7 +38,7 @@ Use the streak as motivation to keep your chain going!
 
 ## Home Screen Preview
 
-On the **Home** tab, a **Practice Calendar card** shows a quick week view (Mon–Sun) with dots indicating which days you practised. Tap the card to jump to the full calendar.
+On the **Home** tab, a **Practice Calendar card** shows a quick week view (Mon–Sun) with check icons for days you practised. Tap the card to jump to the full calendar.
 
 ## Related Docs
 

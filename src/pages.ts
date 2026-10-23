@@ -11,6 +11,7 @@ import dashboardRaw from "../dashboard.md?raw";
 import curatorDashboardRaw from "../curator-dashboard.md?raw";
 import sharingProgressRaw from "../sharing-progress.md?raw";
 import onboardingRaw from "../onboarding.md?raw";
+import homeRaw from "../home.md?raw";
 
 export interface Page {
   title: string;
@@ -69,6 +70,7 @@ const pages: Record<string, Page> = {
   "/curator-dashboard": processPage(curatorDashboardRaw),
   "/sharing-progress": processPage(sharingProgressRaw),
   "/onboarding": processPage(onboardingRaw),
+  "/home": processPage(homeRaw),
   "/settings": processPage(settingsRaw),
   "/profile": processPage(profileRaw),
   "/reset-password": processPage(resetPasswordRaw),
