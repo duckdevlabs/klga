@@ -8,6 +8,7 @@ import tempoMarkingsRaw from "../reference/tempo-markings.md?raw";
 import timeSignaturesRaw from "../reference/time-signatures.md?raw";
 import gradualMutingRaw from "../reference/gradual-muting.md?raw";
 import dashboardRaw from "../dashboard.md?raw";
+import curatorDashboardRaw from "../curator-dashboard.md?raw";
 import sharingProgressRaw from "../sharing-progress.md?raw";
 import onboardingRaw from "../onboarding.md?raw";
 
@@ -65,6 +66,7 @@ const pages: Record<string, Page> = {
   "/training": processPage(trainingRaw),
   "/practice-calendar": processPage(practiceCalendarRaw),
   "/dashboard": processPage(dashboardRaw),
+  "/curator-dashboard": processPage(curatorDashboardRaw),
   "/sharing-progress": processPage(sharingProgressRaw),
   "/onboarding": processPage(onboardingRaw),
   "/settings": processPage(settingsRaw),
